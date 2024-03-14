@@ -1,0 +1,32 @@
+.item {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+    .name {
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+
+    .price {
+        font-size: 40px;
+        text-align: right;
+        margin: 10px;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .short_desc {
+        text-align: center;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    .count {
+        text-align: right;
+    }
+}

@@ -1,0 +1,9 @@
+
+<div class="item">
+    <h2 class="name">{{arr.name}}</h2>
+    <div class="img"><img src={{arr.img}} alt=""></div>
+    <div class="price">{{arr.price | currency:'UAH' }}</div>
+    <div class="desc">{{arr.desc}}</div>
+    <div class="short_desc">{{arr.short_desc}}</div>
+        <div class="count">{{arr.count | naming:['одиниця', 'одиниці', 'одиниць']}}</div>
+</div>
